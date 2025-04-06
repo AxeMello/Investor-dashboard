@@ -12,6 +12,7 @@ import StartupProfile from "./pages/StartupProfile";
 import InvestorProfile from "./pages/InvestorProfile";
 import EntrepreneurDashboard from "./pages/EntrepreneurDashboard";
 import InvestorDashboard from "./pages/InvestorDashboard";
+import Community from "./pages/Community";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,8 +30,9 @@ const App = () => (
           <Route path="/explore" element={<Explore />} />
           <Route path="/startup-profile" element={<StartupProfile />} />
           <Route path="/investor-profile" element={<InvestorProfile />} />
-          <Route path="/entrepreneur-dashboard" element={<EntrepreneurDashboard />} />
-          <Route path="/investor-dashboard" element={<InvestorDashboard />} />
+          <Route path="/entrepreneurs" element={<EntrepreneurDashboard />} />
+          <Route path="/investors" element={<InvestorDashboard />} />
+          <Route path="/community" element={<Community />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

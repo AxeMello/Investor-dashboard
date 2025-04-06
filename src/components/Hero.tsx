@@ -2,7 +2,7 @@
 import { ArrowRight, BarChart2, Briefcase, LineChart, Lightbulb, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { card } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
 export function Hero() {
@@ -118,4 +118,4 @@ export function Hero() {
       </div>
     </section>
   );
-}
+};
