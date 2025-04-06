@@ -29,6 +29,7 @@ import {
   Star,
   TrendingUp,
   Users,
+  Sparkles,
 } from "lucide-react";
 
 const StartupProfile = () => {

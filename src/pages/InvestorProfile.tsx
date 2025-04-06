@@ -27,6 +27,7 @@ import {
   MessageSquare,
   Star,
   Wallet,
+  Sparkles,
 } from "lucide-react";
 
 const InvestorProfile = () => {
@@ -40,7 +41,7 @@ const InvestorProfile = () => {
     location: "San Francisco, CA",
     website: "https://innovationcapital.example",
     founded: "2015",
-    team: "12 investment professionals",
+    teamSize: "12 investment professionals",
     fundSize: "$150M",
     industries: ["HealthTech", "CleanTech", "AI/ML", "SaaS"],
     stages: ["Pre-seed", "Seed", "Series A"],
