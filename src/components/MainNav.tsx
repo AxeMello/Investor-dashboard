@@ -8,9 +8,10 @@ import {
   Briefcase,
   ChevronDown,
   Menu,
+  MessageCircle,
   Search,
-  X,
   Users,
+  X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
